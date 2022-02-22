@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>BOOK MANAGEMENT SYSTEM</title>
+</head>
+
+    
+<body>
+    <header>
+        <h1>BOOK MANAGEMENT SYSTEM</h1>
+        <body style="background-color:green;">
+            <tr style="background-color:#BDB76B;"></tr>
+         </body>
+    </header>
+    <main>
+        <section id="contact-display">
+            <h2 class="contacts">Contacts</h2>
+            <table>
+                <tr id="head">
+                    <thead>
+                        <th><i>Name</i></th>
+                        <th><i>Address</i></th>
+                        <th>Book</th>
+                        <th>Price</th>
+                        
+                    </thead>
+                </tr>
+                <tbody id="data">
+                    
+                </tbody>
+            </table>
+        </section>
+        <section id="new-contact">
+            <h2>UPDATE</h2>
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input id="name" type="text"  maxlength="15" required>
+                </div>
+                <div>
+                    <label for="add">Address:</label>
+                    <input id="add" type="text" maxlength="30" required>
+                </div>
+                <div>
+                    <label for="book">Book:</label>
+                    <input id="book" type="text" maxlength="15" required>
+                </div>
+                <div>
+                    <label for="price">Price:</label>
+                    <input id="price" type="number" maxlength="30" required>
+                </div>
+                
+                <div>
+                    <button>UPDATE</button>
+                    
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
